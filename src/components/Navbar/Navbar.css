@@ -1,0 +1,20 @@
+.nav-div {
+    width: 20vw;
+    margin: 0 auto;
+    padding: 10px 0;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    background-color: #1917fe;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+    .nav-div {
+        font-size: 14px;
+        margin-top: 10px;
+        width: 30vw;
+    }
+}

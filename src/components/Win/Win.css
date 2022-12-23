@@ -1,0 +1,37 @@
+.winner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 150px auto auto auto;
+    width: 55vw;
+    height: 40vh;
+    background-color: rgb(197, 197, 31);
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
+    align-items: center;
+    border-radius: 20px;
+}
+
+button {
+    padding: 8px;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .winner {
+        font-size: 10px;
+        height: 20vh;
+        width: 80vw;
+        margin-top: 230px;
+        padding: 10px 10px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .winner {
+        width: 80vw;
+    }
+}

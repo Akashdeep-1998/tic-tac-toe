@@ -1,0 +1,36 @@
+.draw {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 150px auto auto auto;
+    width: 70vw;
+    height: 40vh;
+    background-color: rgb(214, 45, 45);
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    align-items: center;
+    border-radius: 20px;
+}
+
+button {
+    padding: 8px;
+    border-radius: 10px;
+    color: black;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+    .draw {
+        font-size: 10px;
+        height: 20vh;
+        width: 80vw;
+        margin-top: 230px;
+        padding: 10px 10px;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    .draw {
+        width: 80vw;
+    }
+}
