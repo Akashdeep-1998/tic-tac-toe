@@ -1,15 +1,60 @@
+.Main-nav {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .nav-div {
-    width: 20vw;
+    width: 10vw;
     margin: 0 auto;
     padding: 10px 0;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-    background-color: #1917fe;
+    /* background-color: #1917fe; */
+    /* background-color: #fff; */
     border-radius: 10px;
     color: white;
-    text-shadow: 2px 2px 4px #000000;
-    cursor: pointer;
     font-weight: bold;
 }
+
+.reset_game {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.185);
+}
+
+.reset_game:hover {
+    background-color: #fff;
+    color: #000000;
+}
+
+.player_1 {
+    background-color: rgba(255, 0, 0, 0.12);
+}
+
+.player_2 {
+    background-color: rgba(27, 23, 254, 0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 480px) {
     .nav-div {

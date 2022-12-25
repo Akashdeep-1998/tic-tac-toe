@@ -72,7 +72,7 @@ const Container = () => {
 
   const documentTitleHandler = () => {
     if (isWinner) {
-      return Xturn ? "O won!" : "X Won!";
+      return Xturn ? "Player-2 won!" : "Player-1 Won!";
     } else if (isDraw) {
       return "Match Drawn!";
     } else {
@@ -93,7 +93,7 @@ const Container = () => {
         <Draw playAgainHandler={playAgainHandler} />
       ) : (
         <>
-          <Navbar resetGame={playAgainHandler} />
+          <Navbar resetGame={playAgainHandler} isXTurn={Xturn} />
           <div className="container">
             <div className="main-div">
               <Box value={value[0]} clickHandler={() => clickHandler(0)} />
