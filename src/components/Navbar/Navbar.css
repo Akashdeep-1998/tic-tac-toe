@@ -2,11 +2,12 @@
     width: 60%;
     margin: auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-div {
-    width: 10vw;
+    width: 15vw;
     margin: 0 auto;
     padding: 10px 0;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
@@ -19,7 +20,7 @@
 
 .reset_game {
     cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.185);
+    background-color: rgba(255, 255, 255, 0.15);
 }
 
 .reset_game:hover {
@@ -28,13 +29,27 @@
 }
 
 .player_1 {
-    background-color: rgba(255, 0, 0, 0.12);
+    background-color: rgba(255, 0, 0, 0.08);
 }
 
 .player_2 {
-    background-color: rgba(27, 23, 254, 0.1);
+    background-color: rgba(27, 23, 254, 0.08);
 }
 
+
+@media screen and (max-width: 480px) {
+    .Main-nav {
+        width: 80%;
+    }
+
+    .nav-div {
+        font-size: 12px !important;
+        margin: 0 14px;
+        padding-left: 0;
+        padding-right: 0;
+
+    }
+}
 
 
 

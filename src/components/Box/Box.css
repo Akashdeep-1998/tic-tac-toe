@@ -11,16 +11,38 @@
     border-style: ridge;
 }
 
+img#x {
+    width: 110px;
+}
+
+img#o {
+    width: 120px;
+}
+
 @media screen and (max-width: 480px) {
     .box-div {
         height: 92px;
+    }
 
+    img#x {
+        width: 45px;
+    }
+
+    img#o {
+        width: 50px;
     }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
     .box-div {
         height: 125px;
+    }
 
+    img#x {
+        width: 65px;
+    }
+
+    img#o {
+        width: 80px;
     }
 }

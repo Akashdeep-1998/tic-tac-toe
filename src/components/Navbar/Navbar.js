@@ -4,25 +4,25 @@ import "./Navbar.css";
 
 const Navbar = (props) => {
   return (
-    <div className="Main-nav" onClick={props.resetGame}>
+    <div className="Main-nav">
       <div
         className="nav-div player_1"
         style={{
           backgroundColor: props.isXTurn ? "red" : "",
-          fontWeight: props.isXTurn ? "bold" : "",
         }}
       >
-        Player 1
+        PLAYER-1
       </div>
-      <div className="nav-div reset_game">RESET GAME</div>
+      <div className="nav-div reset_game" onClick={props.resetGame}>
+        NEW GAME
+      </div>
       <div
         className="nav-div player_2"
         style={{
-          backgroundColor: !props.isXTurn ? "#1917fe" : "",
-          fontWeight: !props.isXTurn ? "bold" : "",
+          backgroundColor: !props.isXTurn ? "#1d0feb" : "",
         }}
       >
-        Player 2
+        PLAYER-2
       </div>
     </div>
   );

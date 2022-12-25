@@ -5,7 +5,7 @@ import "./Draw.css";
 const Draw = (props) => {
   return (
     <div className="draw">
-      <h1>MATCH DRAWN, BETTER LUCK NEXT TIME!</h1>
+      <h1>match drawn!</h1>
       <button
         style={{
           backgroundColor: "red",

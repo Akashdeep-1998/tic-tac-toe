@@ -86,7 +86,7 @@ const Container = () => {
     <>
       {isWinner ? (
         <Win
-          winner={Xturn ? "'O'" : "'X'"}
+          winner={Xturn ? "Player-2" : "Player-1"}
           playAgainHandler={playAgainHandler}
         />
       ) : isDraw ? (

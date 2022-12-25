@@ -3,13 +3,18 @@
     flex-direction: column;
     justify-content: center;
     margin: 150px auto auto auto;
-    width: 70vw;
+    width: 55vw;
     height: 40vh;
-    background-color: rgb(214, 45, 45);
+    /* background-color: rgb(214, 45, 45); */
+    background-color: rgba(0, 0, 0, 0.712);
     color: white;
     text-shadow: 2px 2px 4px #000000;
     align-items: center;
     border-radius: 20px;
+}
+
+h1{
+    text-transform: uppercase;
 }
 
 button {
@@ -29,6 +34,7 @@ button {
         padding: 10px 10px;
     }
 }
+
 @media (min-width: 481px) and (max-width: 768px) {
     .draw {
         width: 80vw;
