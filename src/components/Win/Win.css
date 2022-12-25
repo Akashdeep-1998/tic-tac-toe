@@ -5,11 +5,16 @@
     margin: 150px auto auto auto;
     width: 55vw;
     height: 40vh;
-    background-color: rgb(197, 197, 31);
+    /* background-color: rgb(197, 197, 31); */
+    background-color: rgba(0, 0, 0, 0.712);
     color: #fff;
     text-shadow: 2px 2px 4px #000000;
     align-items: center;
     border-radius: 20px;
+}
+
+h1 {
+    text-transform: uppercase;
 }
 
 button {
